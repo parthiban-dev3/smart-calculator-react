@@ -39,6 +39,7 @@ This project provides a clean, responsive UI with a calculation history panel an
 ---
 
 ## 📂 Project Structure
+```bash
 smart-calculator-react
 │
 ├── index.html
@@ -57,6 +58,7 @@ smart-calculator-react
 │ │
 │ └── utils
 │ └── calculate.js
+```
 
 
 ---
