@@ -1,16 +1,126 @@
-# React + Vite
+# 🧮 Smart Calculator Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Smart Calculator Web Application** built using **React + Vite**.  
+This project provides a clean, responsive UI with a calculation history panel and persistent storage using the browser's localStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Modern and responsive UI
+- Built with React + Vite
+- Fast and lightweight development environment
+- Real-time calculations
+- Calculation **History Panel**
+- **Clear history** functionality
+- History stored using **localStorage**
+- Smooth button interactions
+- Error handling for invalid expressions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Application Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Smart Calculator Output](./screenshot.png)
+
+> Place your screenshot file in the project root and name it `screenshot.png`.
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- mathjs
+
+---
+
+## 📂 Project Structure
+smart-calculator-react
+│
+├── index.html
+├── package.json
+├── vite.config.js
+│
+├── src
+│ ├── main.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ │
+│ ├── components
+│ │ ├── Calculator.jsx
+│ │ ├── Button.jsx
+│ │ └── History.jsx
+│ │
+│ └── utils
+│ └── calculate.js
+
+
+---
+
+## ⚙️ Installation Guide
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/smart-calculator-react.git
+```
+
+### 2️⃣ Navigate to the Project Folder
+```bash
+cd smart-calculator-react
+```
+
+### 3️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 4️⃣ Install mathjs
+```bash
+npm install mathjs
+```
+
+### 5️⃣ Run the Development Server
+```bash
+npm run dev
+```
+
+### Open your browser and visit:
+```bash
+http://localhost:5173
+```
+
+
+## 📊 How the Application Works
+
+1. Users click numbers and operators.
+2. The expression is built dynamically.
+3. The mathjs library evaluates the expression.
+4. Results appear instantly on the display.
+5. Each calculation is saved in the History panel.
+6. History is stored in localStorage, so it remains after refreshing.
+7. The Clear button removes all saved calculations.
+
+
+## 🧠 Example Calculations
+```bash
+5 + 5 = 10
+8 * 3 = 24
+12 / 4 = 3
+9 - 2 = 7
+```
+
+## 📌 Future Improvements
+
+1. Scientific calculator functions
+2. Keyboard input support
+3. Dark / Light theme toggle
+4. Export history feature
+5. Mobile UI optimization
+
+
+# ⭐ If you like this project, consider giving it a star on GitHub!
