@@ -23,8 +23,6 @@ This project provides a clean, responsive UI with a calculation history panel an
 
 ![Smart Calculator Output](./screenshot.png)
 
-> Place your screenshot file in the project root and name it `screenshot.png`.
-
 ---
 
 ## 🛠️ Technologies Used
